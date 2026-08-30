@@ -1,0 +1,33 @@
+# Local/private state
+.env
+.env.*
+cert.pem
+*.pem
+.scratch/
+
+# Generated runtimes and caches
+.venv/
+venv/
+node_modules/
+dist/
+build/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+
+# Runtime data
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
